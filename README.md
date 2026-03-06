@@ -29,9 +29,9 @@ After ensuring the data was clean, I performed an exploratory analysis to identi
 * **Pivot Table Configuration**: 
     * Rows: 'Workout_Type'
     * Values: 'Calories' (Average) and 'Frequency' (Average)
-* **Key Findings**:
-    * [Insert your highest calorie burn workout type here] had the highest average calorie expenditure.
-    * [Insert your highest frequency workout type here] had the highest engagement rate among members.
-
+## Key Findings
+* **HIIT** workouts had the highest average calorie expenditure (925.81 calories).
+* **Strength** workouts had the highest engagement rate, with an average frequency of 3.36 days per week.
+  
 ## Next Steps
 * Transitioning data to Tableau for visualization and dashboard creation.
