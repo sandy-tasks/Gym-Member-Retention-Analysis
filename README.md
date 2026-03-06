@@ -14,17 +14,20 @@ To identify key factors that lead to gym member "churn" (canceling a membership)
 * **Visualization:** Tableau Public
 * **Documentation:** GitHub / Kaggle
 
+## 2. Prepare
+**Data Source:** The dataset consists of anonymized gym member exercise tracking records.
+**Data Organization:** The data is structured in a tabular format, including columns for `Workout_Type`, `Calories_Burned`, and `Workout_Frequency`.
 
-## Phase 2: Process (Data Cleaning)
-In this phase, the raw dataset was prepared for analysis to ensure accuracy and reliability.
+## Phase 3: Process (Data Cleaning)
+In this phase, the raw dataset was prepared for analysis to ensure data integrity, accuracy and reliability.
 * **Tool Used**: Google Sheets.
 * **Cleaning Steps Taken**:
-    * Standardized column headers for consistency in pivot table mapping.
-    * Removed all duplicate records to maintain data integrity.
-    * Utilized the 'Trim whitespace' tool to remove hidden characters that prevent mathematical calculations.
-    * Performed a filter audit to ensure no null (blank) values remained in key columns like 'Calories' and 'Frequency'.
+* **Standardization:** Standardized column headers for consistency in pivot table mapping.
+* **Trimming:** Applied 'Trim whitespace' to remove hidden characters preventing mathematical operations.
+* **Numeric Integrity:** Forced numeric data types and verified right-alignment to ensure the software treated the values as numbers.
+* **Filter Audit:** Systematically removed null (blank) values and incomplete records to eliminate calculation errors like #DIV/0!. and 'Frequency'.
 
-## Phase 3: Analysis
+## Phase 4: Analysis
 After ensuring the data was clean, I performed an exploratory analysis to identify trends in member behavior.
 * **Pivot Table Configuration**: 
     * Rows: 'Workout_Type'
