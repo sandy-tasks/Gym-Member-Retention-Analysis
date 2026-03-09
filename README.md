@@ -1,4 +1,4 @@
-# Gym Member Retention Analysis (Capstone Project)
+# Gym Member Excercice Analysis (Capstone Project)
 
 ## Phase 1: ASK
 ### Business Task
